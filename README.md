@@ -21,6 +21,7 @@
     <li><p>Discord API</p></li>
     <li><p>Telegram API</p></li>
     <li><p>Blender 3D</p></li>
+    <li><p>Arduino</p></li>
   </ul>
 </div>
 <div id="about">
