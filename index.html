@@ -31,21 +31,22 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md sticky-top bg-white d-md-flex align-items-md-center">
+    <nav class="navbar navbar-light navbar-expand-md bg-white d-md-flex align-items-md-center">
         <div class="container-fluid"><a class="navbar-brand" href="#"><span class="d-md-flex align-items-md-center"><span><img src="assets/img/fav.jpg" width="32" height="32" style="margin-right: 10px;"></span><span style="padding-top: 0px;"><strong>Кирилл</strong></span></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="#techs">Технологии и языки</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#proj">Проекты</a></li>
+                <ul class="navbar-nav" style="margin-left: 5px;">
+                    <li class="nav-item"><a class="nav-link active" href="#techs-technologies-languages">Технологии и языки</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#proj-projects-in-work">Проекты</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="new-version-index.html">Новая версия</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="text-center"><img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100" loading="lazy" style="margin-top: 50;"></div>
     <div>
-        <h2 class="text-break text-center text_header" id="main_header"><span style="color: rgb(0, 0, 0);">Привет! Я - Кирилл, мне 14 лет. Я увлекаюсь программированием. 👋</span></h2>
-        <div>
-            <h3 class="text-center" id="techs"><span style="color: rgb(0, 0, 0);">Технологии и языки программирования, которыми я владею</span><br><br><br></h3>
+        <h2 class="text-break text-center \" id="main_header"><span style="color: rgb(0, 0, 0);">Привет! Я - Кирилл, мне 14 лет. Я увлекаюсь программированием. 👋</span></h2>
+        <div id="techs">
+            <h3 class="text-center" id="techs-technologies-languages" style="margin-top: 10px;"><span style="color: rgb(0, 0, 0);">Технологии и языки программирования, которыми я владею</span></h3>
             <ul class="text-start">
                 <li>Python</li>
                 <li>Discord API</li>
@@ -54,9 +55,9 @@
                 <li>Arduino</li>
             </ul>
         </div>
-        <div>
-            <h3 class="text-center">Обо мне</h3>
-            <h4 class="text-center" id="proj"><span style="color: rgb(0, 0, 0);">Мини проекты, над которыми я работаю на досуге</span></h4>
+        <div id="proj">
+            <h3 class="text-center" id="proj-about-me">Обо мне</h3>
+            <h4 class="text-center" id="proj-projects-in-work"><span style="color: rgb(0, 0, 0);">Мини проекты, над которыми я работаю на досуге</span></h4>
             <ol>
                 <li>
                     <div>
@@ -80,6 +81,7 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
